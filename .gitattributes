@@ -1,0 +1,6 @@
+EgProject.sln filter=lfs diff=lfs merge=lfs -text
+Eigen filter=lfs diff=lfs merge=lfs -text
+clean.bat filter=lfs diff=lfs merge=lfs -text
+data filter=lfs diff=lfs merge=lfs -text
+usr filter=lfs diff=lfs merge=lfs -text
+EgForm filter=lfs diff=lfs merge=lfs -text

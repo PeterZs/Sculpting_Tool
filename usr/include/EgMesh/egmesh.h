@@ -1,0 +1,39 @@
+#pragma once
+
+#include <vector>
+#include <list>
+#include <map>
+#include <queue>
+#include <functional>
+#include <chrono>
+#include <unordered_map>
+#include <fstream>
+#include "../EgMath/egmath.h"
+#include "../GL/freeglut.h"
+#include "../IL/ilut.h"
+#include "../Eigen/Eigenvalues"
+#include "../Eigen/Sparse"
+#include "../Eigen/Core"
+#include "../Spectra/GenEigsSolver.h"
+#include "../Spectra/MatOp/SparseGenMatProd.h"
+#include "egmesh_core.h"
+#include "egmesh_macro.h"
+#include "egmesh_repair.h"
+#include "egmesh_remesh.h"
+#include "egmesh_ddg.h"
+#include "egmesh_smooth.h"
+#include "egmesh_create.h"
+#include "egmesh_query.h"
+#include "egmesh_path.h"
+#include "egmesh_path_aniso.h"
+#include "egmesh_cut.h"
+#include "egmesh_segment.h"
+#include "egmesh_unfold.h"
+#include "egmesh_offset.h"
+#include "egmesh_bvh.h"
+#include "egmesh_boolean.h"
+#include "egmesh_blockout.h"
+#include "egmesh_util.h"
+#include "igmesh_core.h"
+
+
